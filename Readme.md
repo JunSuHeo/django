@@ -1,14 +1,13 @@
-##Django 설정 방법
+## Django 설정 방법
 
-####environment : python 3.7, Windows 10, db : sqlite3, IDE : Pycharm
+#### environment : python 3.7, Windows 10, db : sqlite3, IDE : Pycharm
 
 1. 가상환경 만들기 (python -m venv [폴더명])
     cmd 내에서 원하는 폴더로 이동한 뒤 가상환경을 만든다.
     ```python -m venv kvenv```
 
 2. 가상환경 사용하기 (activate)
-    가상환경이 만들어지면 해당 폴더 내에 kvenv\Scripts 폴더가 생성이 되는데 Scripts까지 이동한뒤</br>
-    cmd에 activate를 입력하여 가상환경을 사용한다.
+    가상환경이 만들어지면 해당 폴더 내에 kvenv\Scripts 폴더가 생성이 되는데 Scripts까지 이동한뒤 cmd에 activate를 입력하여 가상환경을 사용한다.
 
 3. Django 설치
     다시 kvenv까지 돌아와서 Django를 설치한다.
@@ -41,13 +40,19 @@
 
 7. sqlite3 migration
     프로젝트 폴더에 들어간 다음 migrate
-    ```python manage.py migrate```
+    ```
+    python manage.py migrate
+    ```
 
 8. 서버 구동
-    ```python manage.py runserver```
+    ```
+    python manage.py runserver
+    ```
 
 9. 어플리케이션 만들기
+    ```
     python manage.py startapp "어플리케이션 이름"
+    ```
 
 10. 서버에 앱 등록 (settings.py)
     ```
