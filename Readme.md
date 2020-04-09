@@ -48,14 +48,18 @@
     python manage.py startapp "어플리케이션 이름"
 
 10. 서버에 앱 등록 (settings.py)
-    ```INSTALLED_APPS = [
+    ```
+    INSTALLED_APPS = [
         "어플리케이션 이름",
-    ]```
+    ]
+    ```
 
 11. django.contrib.auth 사용(settings.py)
-    ```INSTALLED_APPS = [
+    ```
+    INSTALLED_APPS = [
         'django.contrib.auth',
-    ]```
+    ]
+    ```
 
 
-출처 : >https://kev1n.tistory.com/34
+출처 : https://kev1n.tistory.com/34
