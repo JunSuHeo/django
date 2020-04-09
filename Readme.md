@@ -7,7 +7,7 @@
     ```python -m venv kvenv```
 
 2. 가상환경 사용하기 (activate)
-    가상환경이 만들어지면 해당 폴더 내에 kvenv\Scripts 폴더가 생성이 되는데 Scripts까지 이동
+    가상환경이 만들어지면 해당 폴더 내에 kvenv\Scripts 폴더가 생성이 되는데 Scripts까지 이동한뒤</br>
     cmd에 activate를 입력하여 가상환경을 사용한다.
 
 3. Django 설치
@@ -19,7 +19,9 @@
 
 4. Django 프로젝트 생성
     Django 프로젝트를 생성시킨다.
+    ```
     django-admin start project "프로젝트 이름"
+    ```
 
 5. settings.py 설정
     ```
